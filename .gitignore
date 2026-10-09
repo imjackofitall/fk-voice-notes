@@ -1,0 +1,37 @@
+# Build output
+build/
+DerivedData/
+xcuserdata/
+*.xcuserstate
+.DS_Store
+
+# AI models and engine (fetched by setup.sh)
+Vendor/
+*.cact
+*.gguf
+*.onnx
+*.safetensors
+*.mlmodel
+*.mlmodelc/
+*.mlpackage/
+libneedle.a
+needle.h
+
+# AI-generated test audio
+samples/
+
+# AI assistant config and session files
+.claude/
+CLAUDE.md
+CLAUDE.local.md
+AGENTS.md
+.cursor/
+.cursorrules
+.codex/
+.gemini/
+GEMINI.md
+.copilot/
+.github/copilot-instructions.md
+.aider*
+.windsurf/
+.junie/
